@@ -1,12 +1,9 @@
-import {
-  View,
-  Text
-} from 'react-native';
+// Screens
+import { HomeScreen } from './src/presentation/screens';
 
-export default function HomeScreen() {
+
+export default function NavApp() {
   return (
-    <View>
-      <Text style={{ color: 'white' }}>Hola</Text>
-    </View>
+    <HomeScreen />
   );
 }
