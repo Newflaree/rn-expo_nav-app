@@ -1,9 +1,9 @@
-// Screens
-import { HomeScreen } from './src/presentation/screens';
+// Navigation
+import { StackNavigator } from './src/presentation/routes'
 
 
 export default function NavApp() {
   return (
-    <HomeScreen />
+    <StackNavigator />
   );
 }
